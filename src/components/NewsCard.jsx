@@ -59,7 +59,7 @@ const NewsCard = ({ news }) => {
       <div className="p-4">
         <p className="text-sm text-gray-600">{details.slice(0, 180)}...</p>
         <Link
-          to={`/news/${id}`}
+          to={`/news-details/${id}`}
           className="text-orange-500 text-sm font-semibold mt-2 inline-block hover:underline"
         >
           Read More
